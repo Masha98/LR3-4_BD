@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Lab1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Lab1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Lab3.Properties.Settings.GlobalReference.Default.Lab1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Provider" msprop:Generator_TableClassName="ProviderDataTable" msprop:Generator_TableVarName="tableProvider" msprop:Generator_RowChangedName="ProviderRowChanged" msprop:Generator_TablePropName="Provider" msprop:Generator_RowDeletingName="ProviderRowDeleting" msprop:Generator_RowChangingName="ProviderRowChanging" msprop:Generator_RowEvHandlerName="ProviderRowChangeEventHandler" msprop:Generator_RowDeletedName="ProviderRowDeleted" msprop:Generator_RowClassName="ProviderRow" msprop:Generator_UserTableName="Provider" msprop:Generator_RowEvArgName="ProviderRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnPropNameInTable="titleColumn" msprop:Generator_UserColumnName="title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="_address" msprop:Generator_ColumnVarNameInTable="column_address" msprop:Generator_ColumnPropNameInRow="_address" msprop:Generator_ColumnPropNameInTable="_addressColumn" msprop:Generator_UserColumnName="_address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="phone" msprop:Generator_ColumnVarNameInTable="columnphone" msprop:Generator_ColumnPropNameInRow="phone" msprop:Generator_ColumnPropNameInTable="phoneColumn" msprop:Generator_UserColumnName="phone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="billNumber" msprop:Generator_ColumnVarNameInTable="columnbillNumber" msprop:Generator_ColumnPropNameInRow="billNumber" msprop:Generator_ColumnPropNameInTable="billNumberColumn" msprop:Generator_UserColumnName="billNumber" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Supply" msprop:Generator_TableClassName="SupplyDataTable" msprop:Generator_TableVarName="tableSupply" msprop:Generator_RowChangedName="SupplyRowChanged" msprop:Generator_TablePropName="Supply" msprop:Generator_RowDeletingName="SupplyRowDeleting" msprop:Generator_RowChangingName="SupplyRowChanging" msprop:Generator_RowEvHandlerName="SupplyRowChangeEventHandler" msprop:Generator_RowDeletedName="SupplyRowDeleted" msprop:Generator_RowClassName="SupplyRow" msprop:Generator_UserTableName="Supply" msprop:Generator_RowEvArgName="SupplyRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:int" minOccurs="0" />
+              <xs:element name="unitPrice" msprop:Generator_ColumnVarNameInTable="columnunitPrice" msprop:Generator_ColumnPropNameInRow="unitPrice" msprop:Generator_ColumnPropNameInTable="unitPriceColumn" msprop:Generator_UserColumnName="unitPrice" type="xs:int" minOccurs="0" />
+              <xs:element name="supplyDate" msprop:Generator_ColumnVarNameInTable="columnsupplyDate" msprop:Generator_ColumnPropNameInRow="supplyDate" msprop:Generator_ColumnPropNameInTable="supplyDateColumn" msprop:Generator_UserColumnName="supplyDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="goodsCode" msprop:Generator_ColumnVarNameInTable="columngoodsCode" msprop:Generator_ColumnPropNameInRow="goodsCode" msprop:Generator_ColumnPropNameInTable="goodsCodeColumn" msprop:Generator_UserColumnName="goodsCode" type="xs:int" minOccurs="0" />
+              <xs:element name="providerNumber" msprop:Generator_ColumnVarNameInTable="columnproviderNumber" msprop:Generator_ColumnPropNameInRow="providerNumber" msprop:Generator_ColumnPropNameInTable="providerNumberColumn" msprop:Generator_UserColumnName="providerNumber" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Provider" />
+      <xs:field xpath="mstns:billNumber" />
+    </xs:unique>
+    <xs:unique name="Supply_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Supply" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK__Supply__provider__45F365D3" msdata:parent="Provider" msdata:child="Supply" msdata:parentkey="billNumber" msdata:childkey="providerNumber" msprop:Generator_UserChildTable="Supply" msprop:Generator_ChildPropName="GetSupplyRows" msprop:Generator_UserRelationName="FK__Supply__provider__45F365D3" msprop:Generator_RelationVarName="relationFK__Supply__provider__45F365D3" msprop:Generator_UserParentTable="Provider" msprop:Generator_ParentPropName="ProviderRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,0 +1,21 @@
+C:\Users\Ярослав\source\repos\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Ярослав\source\repos\Lab3\bin\Debug\Lab3.exe
+C:\Users\Ярослав\source\repos\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.Form1.resources
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.csproj.GenerateResource.Cache
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.exe
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.pdb
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.Goods.resources
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.Provider.resources
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.Order_Provider.resources
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.Goods_Order.resources
+C:\Users\Ярослав\source\repos\Lab3\obj\Debug\Lab3.Order.resources
+C:\Users\Mary\Desktop\Предмети на екзамени\Бази даних\Лабораторні\Лабораторна робота №3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Mary\Desktop\Предмети на екзамени\Бази даних\Лабораторні\Лабораторна робота №3\Lab3\obj\Debug\Lab3.exe
+C:\Users\Mary\Desktop\Предмети на екзамени\Бази даних\Лабораторні\Лабораторна робота №3\Lab3\obj\Debug\Lab3.pdb
+C:\Users\Mary\Desktop\Предмети на екзамени\Бази даних\LR3_BD\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Mary\Desktop\Предмети на екзамени\Бази даних\LR3_BD\Lab3\obj\Debug\Lab3.exe
+C:\Users\Mary\Desktop\Предмети на екзамени\Бази даних\LR3_BD\Lab3\obj\Debug\Lab3.pdb
